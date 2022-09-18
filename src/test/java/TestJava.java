@@ -1,9 +1,7 @@
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
 import com.journaldev.spring.model.User;
-
+import static org.junit.Assert.*;
 
 public class TestJava {
 	
@@ -12,7 +10,7 @@ public class TestJava {
 	@Test
 	public void getUserNameTest() {
 		user.setUserName("Amit");
-		assertEquals("Amits",user.getUserName());  
+		assertEquals("Amit",user.getUserName());  
 		
 	}
 	
