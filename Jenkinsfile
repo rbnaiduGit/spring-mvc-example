@@ -35,7 +35,7 @@ pipeline {
             }
         }
         stage('deploy') {
-            input{
+            input {
                    mesage "Prod deployement started"
                     ok "should we start"
                 }
